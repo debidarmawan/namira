@@ -1,0 +1,32 @@
+{
+  "name": "namira",
+  "version": "1.0.0",
+  "description": "Dashboard monitoring",
+  "main": "index.js",
+  "scripts": {
+    "open-app": "gulp open-app",
+    "start": "npm run open-app",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "gulp-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debidarmawan/namira.git"
+  },
+  "author": "debidarmawan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/debidarmawan/namira/issues"
+  },
+  "homepage": "https://github.com/debidarmawan/namira#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-install": "^1.1.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-open": "^3.0.1",
+    "sass": "^1.49.9"
+  }
+}
